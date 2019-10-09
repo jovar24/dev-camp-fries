@@ -1,0 +1,51 @@
+/* footer styles */
+.footer{
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "ubuntu condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+.footer > .logo-footer img{
+    width: 108px;
+    height: 100%;
+    /* filter: brightness(50%); */
+    opacity: 0.5;
+}
+.footer > .contact-hours-footer span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .contact-hours-footer > .hours{
+  font-size: 0.8em;
+  color: #cea135;
+  text-transform: uppercase;
+}
+
+.footer > .links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+.footer > .social-media{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer > .social-media a{
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 1s;
+}
+.footer > .social-media a:hover{
+    color: #cea135;
+}
